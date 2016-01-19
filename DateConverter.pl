@@ -22,13 +22,3 @@ print $out $time2;
 }
 chomp $out;
 close $out;
-
-## Konverter sorterte tidspunkt
-#foreach my $sorted(@sorted) {
-#my $timestamp = scalar(localtime($sorted));
-#$timestamp = $timestamp."\n";
-#print $time3;
-#print $sortout $timestamp; 
-#}
-#chomp $sortout;
-#close $sortout;
